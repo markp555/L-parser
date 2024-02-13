@@ -34,7 +34,7 @@ mkdir stack/images | forfiles /P stack /m "*.dot" /c "cmd /c dot -Tpng @file -o 
 
 ### Запуск
 
-Для запуска используйте команду `py lab5.py ...` или `python3 lab5.py ...`
+Для запуска используйте команду `py .\program\lab5.py ...` или `python .\program\lab5.py ...`
 
 **ВАЖНО** При запуске программы поддерживаются следующие параметры:
 
@@ -46,4 +46,4 @@ mkdir stack/images | forfiles /P stack /m "*.dot" /c "cmd /c dot -Tpng @file -o 
 6) `-l` `--last` - указание выводить снимки только на последнем шаге
 
 ### Примеры:
-- `py lab5.py -g grammars/arith_grammar.txt -i "id * id + id" -a`
+- `py .\program\lab5.py -g grammars/arith_grammar.txt -i "id * id + id" -a`
