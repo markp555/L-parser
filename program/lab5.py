@@ -13,9 +13,9 @@ screenshot.add_argument("-s", "--step", dest="step",help="specify the screen ste
 screenshot.add_argument("-a", "--all",dest="all",action = "store_true",help=("enable full parse trace."))
 screenshot.add_argument("-l", "--last",dest="last",action="store_true",help=("only last screen."))
 ### PARSING
-out=parser.parse_args(["-g", "grammars\\arith_grammar.txt", "-a", "-i", "id * id = id"])
+#out=parser.parse_args(["-g", "grammars\\arith_grammar.txt", "-a", "-i", "id * id = id"])
 #out = parser.parse_args(input().split())
-#out=parser.parse_args(sys.argv[1:])
+out=parser.parse_args(sys.argv[1:])
 inp = []
 if out.input != None:
     inp+=out.input.split()
