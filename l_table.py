@@ -1,5 +1,5 @@
 from automata import checkWord
-from types import *
+from types2 import *
 from utils import *
 import copy
 import random
